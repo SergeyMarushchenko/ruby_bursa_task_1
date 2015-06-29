@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #izmenenie
 #izmenenie 2
+=======
+>>>>>>> f8adcd885967299e5f464379c3dbd301b132d5ae
 require './library_manager.rb'
 require 'active_support/all'
 require 'pry'
@@ -187,4 +190,8 @@ describe LibraryManager do
 
   end
 
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> f8adcd885967299e5f464379c3dbd301b132d5ae
