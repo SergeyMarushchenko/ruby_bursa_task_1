@@ -1,5 +1,6 @@
 class LibraryManager
-
+require 'date'
+require 'active_support/all'
   # 1. Бибилиотека в один момент решила ввести жесткую систему штрафов (прямо как на rubybursa :D).
   # За каждый час опоздания со здачей книги читатель вынужден заплатить пеню 0,1% от стоимости.  
   # Необходимо реализовать метод, который будет считать эту сумму в зависимости от даты выдачи и 
@@ -88,7 +89,7 @@ class LibraryManager
         'Ю' => 'Yu',  'Я' => 'Ya', ' ' => ' '
     }
 
-  	eng_name = ukr_name.gsub(/#{translit.keys}/ translit)
+  	eng_name = ukr_name.gsub(/#{translit.keys}/ , translit)
     
   end
 
